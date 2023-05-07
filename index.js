@@ -7,5 +7,5 @@ function fibnacci(n){
 }
 
 console.log(fibnacci(2));
-console.log(fibnacci(3));
+//console.log(fibnacci(3));
 console.log(fibnacci(7));
