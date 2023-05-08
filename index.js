@@ -1,12 +1,17 @@
-function factorial(n){
-  let result = 1;
-  for(let i=1; i <=n; i++){
-    result = result *i; 
+function isPowerOfTwo(n){
+  if (n < 1) {
+    return false;
   }
-  return result;
+  while(n >1){
+    if(n%2 !== 0){
+      return false;
+    }
+    n = n/2;
+  }
+  return true;
 }
 
-console.log(factorial(0));
-console.log(factorial(1));
-console.log(factorial(2));
-console.log(factorial(5));
+console.log(isPowerOfTwo(1));
+console.log(isPowerOfTwo(2));
+console.log(isPowerOfTwo(5));
+console.log(isPowerOfTwo(4));

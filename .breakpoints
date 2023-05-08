@@ -1,0 +1,30 @@
+{
+  "files": {
+    "PrimeNum.js": [
+      {
+        "id": "9ab32db2-5636-4b96-b906-1164e2068b88",
+        "line": 7,
+        "version": 327,
+        "index": 234
+      },
+      {
+        "id": "acab66a9-7c82-4624-a84c-1ba7263c2361",
+        "line": 10,
+        "version": 327,
+        "index": 271
+      },
+      {
+        "id": "31910321-08a0-4afb-a6e6-846a97f678e9",
+        "line": 12,
+        "version": 327,
+        "index": 326
+      },
+      {
+        "id": "5b024283-9bb5-4a22-85ce-7bcaea07b2f4",
+        "line": 15,
+        "version": 327,
+        "index": 356
+      }
+    ]
+  }
+}
