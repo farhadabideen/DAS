@@ -17,4 +17,6 @@ console.log(recursiveFactorial(3));
 // 4! = 4*3*2*1
 //Hear n! = n* (n-1)!
 
+// Big-O = O(n)
+
 

@@ -1,10 +1,11 @@
-function recursiveFactorial(n){
-  if(n == 0){
-    return 1;
+function linearSearch(arr, target){
+  for(let i=0; i < arr.length; i++){
+    if(arr[i] === target)
+      return i;
   }
-  return n* recursiveFactorial(n-1);
+  return -1;
+  
 }
 
-console.log(recursiveFactorial(0));
-console.log(recursiveFactorial(1));
-console.log(recursiveFactorial(4));
+console.log(linearSearch([-4,2,6,5,8],5));
+console.log(linearSearch([-4,2-6,5,8],-4));
