@@ -1,7 +1,7 @@
 //In Mathmatics, the factorial is non-negative integer 'n' donated 'n!' Hear all positive integers less than or equal to 'n'
 //Factorial of zero is 1
 //factorial(4) = 4*3*2*1 = 24
-//factorial(4) = 5*4*3*2*1 = 120
+//factorial(5) = 5*4*3*2*1 = 120
 
 
 function factorial(n) {

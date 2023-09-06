@@ -1,11 +1,13 @@
-function linearSearch(arr, target){
-  for(let i=0; i < arr.length; i++){
-    if(arr[i] === target)
-      return i;
+function fibnacci(n) {
+  const fib = [0, 1]; // This is fibonacci default/initial value.
+  for (let i = 2; i < n; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2]; // Hear i-1 = previous index/ittaration, i-2 means previous previous index.
   }
-  return -1;
-  
+  return fib;
 }
 
-console.log(linearSearch([-4,2,6,5,8],5));
-console.log(linearSearch([-4,2-6,5,8],-4));
+//8 = [ 0, 1, 1, 2, 3, 5, 8, 13] Fibonacci number example.
+
+//console.log(fibnacci(2));
+console.log(fibnacci(3));
+//console.log(fibnacci(8));

@@ -25,6 +25,20 @@
         "version": 327,
         "index": 356
       }
+    ],
+    "index.js": [
+      {
+        "id": "dd08b27d-4118-4776-9e50-eba7b99b51d1",
+        "line": 3,
+        "version": 267,
+        "index": 89
+      },
+      {
+        "id": "4d0c7ab7-eaef-41cb-a3de-4514c03bb47e",
+        "line": 4,
+        "version": 267,
+        "index": 121
+      }
     ]
   }
 }

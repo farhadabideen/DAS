@@ -6,7 +6,7 @@ function fibnacci(n) {
   return fib;
 }
 
-//7 = [ 0, 1, 1, 2, 3, 5, 8, 13] Fibonacci number example.
+//8 = [ 0, 1, 1, 2, 3, 5, 8, 13] Fibonacci number example.
 
 console.log(fibnacci(2));
 //console.log(fibnacci(3));
