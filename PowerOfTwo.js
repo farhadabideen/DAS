@@ -1,8 +1,8 @@
 //Problem: give a positive integer 'n', determine if the number is power of 2 or not. such that 'n' === 2^x
 
-//isPowerOfTwo(1) = true --becouse we know (2^0) ===1
-//isPowerOfTwo(2) = true --becouse we know (2^1) ===2
-//isPowerOfTwo(8) = true --becouse we know (2^4) ===8
+//isPowerOfTwo(1) = true --because we know (2^0) ===1
+//isPowerOfTwo(2) = true --because we know (2^1) ===2
+//isPowerOfTwo(8) = true --because we know (2^4) ===8
 //isPowerOfTwo(5) = false
 
 
@@ -27,11 +27,11 @@ console.log(isPowerOfTwo(4));
 //Bio-O = O(logn) Becuse here (n = n / 2;) this line input size reduced by half.
 
 
-function isPowerOfTwoBitWise(n){
+function isPowerOfTwoBitWise(n) {
   if (n < 1) {
     return false;
   }
-  return (n & (n-1)) == 0;
+  return (n & (n - 1)) == 0;
 }
 
 console.log(isPowerOfTwoBitWise(1));
