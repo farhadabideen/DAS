@@ -22,7 +22,7 @@ class LinkList {
 
   //TC: O(1)
   Prepend(value) {
-    const node = new Node(value);0
+    const node = new Node(value);
     if (this.isEmpty()) {
       this.head = node
     } else {
@@ -99,6 +99,36 @@ class LinkList {
     }
   }
 
+
+  revarse(){
+    let prev = null
+    let curr = this.head
+    while(curr){
+      let Next = curr.Next
+      curr.Next = prev
+      prev = curr
+      curr = Next
+    }
+    this.head = prev
+  }
+  
+
+  search(value){
+    if(this.isEmpty()){
+      return -1      
+    }
+    let i=0
+    let curr=this.head
+    while(curr){
+      if(curr.value === value){
+        return i
+      }
+      curr = curr.Next
+      i++
+    }
+    return -1    
+  }
+
   Print() {
     if (this.isEmpty()) {
       console.log("Link list is empty")
@@ -126,13 +156,14 @@ llist.insert(20,0)
 llist.insert(30,1)
 llist.insert(40,2)
 llist.Print()
-
-
+debugger
+llist.revarse()
+llist.Print()
 //console.log(llist.remove(0))
 //llist.Print()
 
-console.log(llist.removebyValue(10))
-llist.Print()
+//console.log(llist.removebyValue(10))
+//llist.Print()
 
 
 
